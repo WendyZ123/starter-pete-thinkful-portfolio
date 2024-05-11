@@ -37,9 +37,43 @@ article div {
   width: 100%;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+#portfolio .flex-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#portfolio .flex-item {
+  flex: 1;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+#portfolio p {
+  font-size: 14px;
 }
 
 /* Links */
